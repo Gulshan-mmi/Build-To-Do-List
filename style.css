@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(16, 170, 50);
+}
+.container {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+#add-button {
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+  border-style: none;
+  background-color: rgb(128, 141, 250);
+}
+form {
+  display: inline;
+}
+#empty-button {
+  width: 90px;
+  height: 25px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  border-style: none;
+  background-color: rgb(173, 9, 17);
+}
+#save-button {
+  width: 90px;
+  height: 25px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  border-style: none;
+  background-color: rgb(55, 201, 25);
+}
+#clear-completed-button {
+  height: 25px;
+  border-radius: 20px;
+  color: white;
+  border-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(128, 141, 250);
+}
+button {
+  justify-content: space-around;
+  margin: 20px;
+}
+h2 {
+  font-weight: bold;
+}
+.cut {
+  text-decoration: line-through;
+}
+#todo-entry-box,
+p {
+  opacity: 70%;
+}
